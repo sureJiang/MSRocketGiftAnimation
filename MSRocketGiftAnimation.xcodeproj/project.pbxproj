@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0914F94C213D054F003713E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F94B213D054F003713E7 /* AppDelegate.m */; };
+		0914F94F213D054F003713E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F94E213D054F003713E7 /* ViewController.m */; };
+		0914F95A213D0550003713E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F959213D0550003713E7 /* main.m */; };
+		0914F984213D05BF003713E7 /* passThrough_ring.json in Resources */ = {isa = PBXBuildFile; fileRef = 0914F962213D05BF003713E7 /* passThrough_ring.json */; };
+		0914F986213D05BF003713E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0914F964213D05BF003713E7 /* Assets.xcassets */; };
+		0914F987213D05BF003713E7 /* wave2_both_1334.json in Resources */ = {isa = PBXBuildFile; fileRef = 0914F965213D05BF003713E7 /* wave2_both_1334.json */; };
+		0914F989213D05BF003713E7 /* panel_Lv2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0914F967213D05BF003713E7 /* panel_Lv2.json */; };
+		0914F98A213D05BF003713E7 /* speedLine.json in Resources */ = {isa = PBXBuildFile; fileRef = 0914F968213D05BF003713E7 /* speedLine.json */; };
+		0914F98B213D05BF003713E7 /* border.json in Resources */ = {isa = PBXBuildFile; fileRef = 0914F969213D05BF003713E7 /* border.json */; };
+		0914F98C213D05BF003713E7 /* ml_rocket_effect.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0914F96A213D05BF003713E7 /* ml_rocket_effect.caf */; };
+		0914F98D213D05BF003713E7 /* MSCostlyGiftTray.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0914F96C213D05BF003713E7 /* MSCostlyGiftTray.xib */; };
+		0914F98E213D05BF003713E7 /* MSCostlyGiftItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0914F96D213D05BF003713E7 /* MSCostlyGiftItemView.xib */; };
+		0914F98F213D05BF003713E7 /* UIBezierPathElement.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0914F96E213D05BF003713E7 /* UIBezierPathElement.mm */; };
+		0914F990213D05BF003713E7 /* MSCostlyGift.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F96F213D05BF003713E7 /* MSCostlyGift.m */; };
+		0914F991213D05BF003713E7 /* UIBezierPath+Util.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0914F970213D05BF003713E7 /* UIBezierPath+Util.mm */; };
+		0914F992213D05BF003713E7 /* MSRoomAtmosphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F971213D05BF003713E7 /* MSRoomAtmosphereView.m */; };
+		0914F993213D05BF003713E7 /* MSCostlyGiftRocketAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F973213D05BF003713E7 /* MSCostlyGiftRocketAnimationView.m */; };
+		0914F994213D05BF003713E7 /* MSCostlyGiftAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F974213D05BF003713E7 /* MSCostlyGiftAnimationView.m */; };
+		0914F995213D05BF003713E7 /* MSCostlyGiftRocketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0914F97A213D05BF003713E7 /* MSCostlyGiftRocketView.xib */; };
+		0914F996213D05BF003713E7 /* MSCostlyGiftRocketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F97D213D05BF003713E7 /* MSCostlyGiftRocketView.m */; };
+		0914F997213D05BF003713E7 /* MSCostlyGiftItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F97E213D05BF003713E7 /* MSCostlyGiftItemView.m */; };
+		0914F998213D05BF003713E7 /* MSCostlyGiftTray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914F97F213D05BF003713E7 /* MSCostlyGiftTray.m */; };
+		0914F999213D05BF003713E7 /* UIBezierPath+NSBezierPath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0914F982213D05BF003713E7 /* UIBezierPath+NSBezierPath.mm */; };
+		184C4A780C5CD87A195002ED /* libPods-MSRocketGiftAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D31AFCC8EBC478D09EE1A4 /* libPods-MSRocketGiftAnimation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0914F947213D054F003713E7 /* MSRocketGiftAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSRocketGiftAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0914F94A213D054F003713E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0914F94B213D054F003713E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0914F94D213D054F003713E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0914F94E213D054F003713E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0914F958213D0550003713E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0914F959213D0550003713E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0914F962213D05BF003713E7 /* passThrough_ring.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = passThrough_ring.json; sourceTree = "<group>"; };
+		0914F964213D05BF003713E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0914F965213D05BF003713E7 /* wave2_both_1334.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wave2_both_1334.json; sourceTree = "<group>"; };
+		0914F967213D05BF003713E7 /* panel_Lv2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = panel_Lv2.json; sourceTree = "<group>"; };
+		0914F968213D05BF003713E7 /* speedLine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = speedLine.json; sourceTree = "<group>"; };
+		0914F969213D05BF003713E7 /* border.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = border.json; sourceTree = "<group>"; };
+		0914F96A213D05BF003713E7 /* ml_rocket_effect.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ml_rocket_effect.caf; sourceTree = "<group>"; };
+		0914F96C213D05BF003713E7 /* MSCostlyGiftTray.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSCostlyGiftTray.xib; sourceTree = "<group>"; };
+		0914F96D213D05BF003713E7 /* MSCostlyGiftItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSCostlyGiftItemView.xib; sourceTree = "<group>"; };
+		0914F96E213D05BF003713E7 /* UIBezierPathElement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIBezierPathElement.mm; sourceTree = "<group>"; };
+		0914F96F213D05BF003713E7 /* MSCostlyGift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCostlyGift.m; sourceTree = "<group>"; };
+		0914F970213D05BF003713E7 /* UIBezierPath+Util.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIBezierPath+Util.mm"; sourceTree = "<group>"; };
+		0914F971213D05BF003713E7 /* MSRoomAtmosphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRoomAtmosphereView.m; sourceTree = "<group>"; };
+		0914F972213D05BF003713E7 /* MSCostlyGiftRocketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCostlyGiftRocketView.h; sourceTree = "<group>"; };
+		0914F973213D05BF003713E7 /* MSCostlyGiftRocketAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCostlyGiftRocketAnimationView.m; sourceTree = "<group>"; };
+		0914F974213D05BF003713E7 /* MSCostlyGiftAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCostlyGiftAnimationView.m; sourceTree = "<group>"; };
+		0914F975213D05BF003713E7 /* MSCostlyGiftTray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCostlyGiftTray.h; sourceTree = "<group>"; };
+		0914F976213D05BF003713E7 /* MSCostlyGiftItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCostlyGiftItemView.h; sourceTree = "<group>"; };
+		0914F977213D05BF003713E7 /* MSRoomAtmosphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRoomAtmosphereView.h; sourceTree = "<group>"; };
+		0914F978213D05BF003713E7 /* UIBezierPathElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBezierPathElement.h; sourceTree = "<group>"; };
+		0914F979213D05BF003713E7 /* MSCostlyGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCostlyGift.h; sourceTree = "<group>"; };
+		0914F97A213D05BF003713E7 /* MSCostlyGiftRocketView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSCostlyGiftRocketView.xib; sourceTree = "<group>"; };
+		0914F97B213D05BF003713E7 /* UIBezierPath+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Util.h"; sourceTree = "<group>"; };
+		0914F97C213D05BF003713E7 /* MSCostlyGiftRocketAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCostlyGiftRocketAnimationView.h; sourceTree = "<group>"; };
+		0914F97D213D05BF003713E7 /* MSCostlyGiftRocketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCostlyGiftRocketView.m; sourceTree = "<group>"; };
+		0914F97E213D05BF003713E7 /* MSCostlyGiftItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCostlyGiftItemView.m; sourceTree = "<group>"; };
+		0914F97F213D05BF003713E7 /* MSCostlyGiftTray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCostlyGiftTray.m; sourceTree = "<group>"; };
+		0914F980213D05BF003713E7 /* MSCostlyGiftAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCostlyGiftAnimationView.h; sourceTree = "<group>"; };
+		0914F982213D05BF003713E7 /* UIBezierPath+NSBezierPath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIBezierPath+NSBezierPath.mm"; sourceTree = "<group>"; };
+		0914F983213D05BF003713E7 /* UIBezierPath+NSBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+NSBezierPath.h"; sourceTree = "<group>"; };
+		368B801688F43280F6E72E2C /* Pods-MSRocketGiftAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSRocketGiftAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSRocketGiftAnimation/Pods-MSRocketGiftAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		61D31AFCC8EBC478D09EE1A4 /* libPods-MSRocketGiftAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSRocketGiftAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828A63CC2222C42697A60997 /* Pods-MSRocketGiftAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSRocketGiftAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSRocketGiftAnimation/Pods-MSRocketGiftAnimation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0914F944213D054F003713E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184C4A780C5CD87A195002ED /* libPods-MSRocketGiftAnimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0914F93E213D054F003713E7 = {
+			isa = PBXGroup;
+			children = (
+				0914F949213D054F003713E7 /* MSRocketGiftAnimation */,
+				0914F948213D054F003713E7 /* Products */,
+				792A069D79D44E3027B52FB8 /* Pods */,
+				3231216220C78F9F5E3F4064 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0914F948213D054F003713E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0914F947213D054F003713E7 /* MSRocketGiftAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0914F949213D054F003713E7 /* MSRocketGiftAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0914F94D213D054F003713E7 /* ViewController.h */,
+				0914F94E213D054F003713E7 /* ViewController.m */,
+				0914F96B213D05BF003713E7 /* RocketView */,
+				0914F981213D05BF003713E7 /* Tools */,
+				0914F961213D05BF003713E7 /* Resource */,
+				0914F960213D05A7003713E7 /* other */,
+			);
+			path = MSRocketGiftAnimation;
+			sourceTree = "<group>";
+		};
+		0914F960213D05A7003713E7 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				0914F94A213D054F003713E7 /* AppDelegate.h */,
+				0914F94B213D054F003713E7 /* AppDelegate.m */,
+				0914F958213D0550003713E7 /* Info.plist */,
+				0914F959213D0550003713E7 /* main.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		0914F961213D05BF003713E7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0914F962213D05BF003713E7 /* passThrough_ring.json */,
+				0914F964213D05BF003713E7 /* Assets.xcassets */,
+				0914F965213D05BF003713E7 /* wave2_both_1334.json */,
+				0914F967213D05BF003713E7 /* panel_Lv2.json */,
+				0914F968213D05BF003713E7 /* speedLine.json */,
+				0914F969213D05BF003713E7 /* border.json */,
+				0914F96A213D05BF003713E7 /* ml_rocket_effect.caf */,
+			);
+			name = Resource;
+			path = resource;
+			sourceTree = "<group>";
+		};
+		0914F96B213D05BF003713E7 /* RocketView */ = {
+			isa = PBXGroup;
+			children = (
+				0914F96C213D05BF003713E7 /* MSCostlyGiftTray.xib */,
+				0914F96D213D05BF003713E7 /* MSCostlyGiftItemView.xib */,
+				0914F96E213D05BF003713E7 /* UIBezierPathElement.mm */,
+				0914F96F213D05BF003713E7 /* MSCostlyGift.m */,
+				0914F970213D05BF003713E7 /* UIBezierPath+Util.mm */,
+				0914F971213D05BF003713E7 /* MSRoomAtmosphereView.m */,
+				0914F972213D05BF003713E7 /* MSCostlyGiftRocketView.h */,
+				0914F973213D05BF003713E7 /* MSCostlyGiftRocketAnimationView.m */,
+				0914F974213D05BF003713E7 /* MSCostlyGiftAnimationView.m */,
+				0914F975213D05BF003713E7 /* MSCostlyGiftTray.h */,
+				0914F976213D05BF003713E7 /* MSCostlyGiftItemView.h */,
+				0914F977213D05BF003713E7 /* MSRoomAtmosphereView.h */,
+				0914F978213D05BF003713E7 /* UIBezierPathElement.h */,
+				0914F979213D05BF003713E7 /* MSCostlyGift.h */,
+				0914F97A213D05BF003713E7 /* MSCostlyGiftRocketView.xib */,
+				0914F97B213D05BF003713E7 /* UIBezierPath+Util.h */,
+				0914F97C213D05BF003713E7 /* MSCostlyGiftRocketAnimationView.h */,
+				0914F97D213D05BF003713E7 /* MSCostlyGiftRocketView.m */,
+				0914F97E213D05BF003713E7 /* MSCostlyGiftItemView.m */,
+				0914F97F213D05BF003713E7 /* MSCostlyGiftTray.m */,
+				0914F980213D05BF003713E7 /* MSCostlyGiftAnimationView.h */,
+			);
+			name = RocketView;
+			path = View;
+			sourceTree = "<group>";
+		};
+		0914F981213D05BF003713E7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0914F982213D05BF003713E7 /* UIBezierPath+NSBezierPath.mm */,
+				0914F983213D05BF003713E7 /* UIBezierPath+NSBezierPath.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3231216220C78F9F5E3F4064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D31AFCC8EBC478D09EE1A4 /* libPods-MSRocketGiftAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		792A069D79D44E3027B52FB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				368B801688F43280F6E72E2C /* Pods-MSRocketGiftAnimation.debug.xcconfig */,
+				828A63CC2222C42697A60997 /* Pods-MSRocketGiftAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0914F946213D054F003713E7 /* MSRocketGiftAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0914F95D213D0550003713E7 /* Build configuration list for PBXNativeTarget "MSRocketGiftAnimation" */;
+			buildPhases = (
+				7AC26860D067E85DF939E196 /* [CP] Check Pods Manifest.lock */,
+				0914F943213D054F003713E7 /* Sources */,
+				0914F944213D054F003713E7 /* Frameworks */,
+				0914F945213D054F003713E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSRocketGiftAnimation;
+			productName = MSRocketGiftAnimation;
+			productReference = 0914F947213D054F003713E7 /* MSRocketGiftAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0914F93F213D054F003713E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = J;
+				TargetAttributes = {
+					0914F946213D054F003713E7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 0914F942213D054F003713E7 /* Build configuration list for PBXProject "MSRocketGiftAnimation" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0914F93E213D054F003713E7;
+			productRefGroup = 0914F948213D054F003713E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0914F946213D054F003713E7 /* MSRocketGiftAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0914F945213D054F003713E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0914F984213D05BF003713E7 /* passThrough_ring.json in Resources */,
+				0914F989213D05BF003713E7 /* panel_Lv2.json in Resources */,
+				0914F98B213D05BF003713E7 /* border.json in Resources */,
+				0914F98C213D05BF003713E7 /* ml_rocket_effect.caf in Resources */,
+				0914F98D213D05BF003713E7 /* MSCostlyGiftTray.xib in Resources */,
+				0914F98E213D05BF003713E7 /* MSCostlyGiftItemView.xib in Resources */,
+				0914F986213D05BF003713E7 /* Assets.xcassets in Resources */,
+				0914F995213D05BF003713E7 /* MSCostlyGiftRocketView.xib in Resources */,
+				0914F98A213D05BF003713E7 /* speedLine.json in Resources */,
+				0914F987213D05BF003713E7 /* wave2_both_1334.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AC26860D067E85DF939E196 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSRocketGiftAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0914F943213D054F003713E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0914F994213D05BF003713E7 /* MSCostlyGiftAnimationView.m in Sources */,
+				0914F98F213D05BF003713E7 /* UIBezierPathElement.mm in Sources */,
+				0914F999213D05BF003713E7 /* UIBezierPath+NSBezierPath.mm in Sources */,
+				0914F996213D05BF003713E7 /* MSCostlyGiftRocketView.m in Sources */,
+				0914F990213D05BF003713E7 /* MSCostlyGift.m in Sources */,
+				0914F992213D05BF003713E7 /* MSRoomAtmosphereView.m in Sources */,
+				0914F998213D05BF003713E7 /* MSCostlyGiftTray.m in Sources */,
+				0914F94F213D054F003713E7 /* ViewController.m in Sources */,
+				0914F997213D05BF003713E7 /* MSCostlyGiftItemView.m in Sources */,
+				0914F991213D05BF003713E7 /* UIBezierPath+Util.mm in Sources */,
+				0914F993213D05BF003713E7 /* MSCostlyGiftRocketAnimationView.m in Sources */,
+				0914F95A213D0550003713E7 /* main.m in Sources */,
+				0914F94C213D054F003713E7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0914F95B213D0550003713E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0914F95C213D0550003713E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0914F95E213D0550003713E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368B801688F43280F6E72E2C /* Pods-MSRocketGiftAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MSRocketGiftAnimation/other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzj.MSRocketGiftAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0914F95F213D0550003713E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828A63CC2222C42697A60997 /* Pods-MSRocketGiftAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MSRocketGiftAnimation/other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzj.MSRocketGiftAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0914F942213D054F003713E7 /* Build configuration list for PBXProject "MSRocketGiftAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914F95B213D0550003713E7 /* Debug */,
+				0914F95C213D0550003713E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0914F95D213D0550003713E7 /* Build configuration list for PBXNativeTarget "MSRocketGiftAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914F95E213D0550003713E7 /* Debug */,
+				0914F95F213D0550003713E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0914F93F213D054F003713E7 /* Project object */;
+}
